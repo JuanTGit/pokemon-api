@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="./js/main.js" defer></script>
+<title>Title</title>
+</head>
+<body>
+<div class="container">
+	<!-- Header -->
+	<h1 class="text-center m-3">Pokemon Stats</h1>
+
+	<!-- Form User input -->
+	<form action="" id="pokeForm">
+		<div class="row m-5 justify-content-center">
+			<!-- User input text -->
+			<div class="col-4">
+				<input class="form-control" type="text" placeholder="Pokemon Name" id="pokeName">
+			</div>
+			<!-- User Submit Event -->
+			<div class="col-1" style="padding: 0%;">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+	</form>
+
+	<div class="row justify-content-center m-5">
+		<div class="card mb-3" style="max-width: 540px; border: none;">
+			<div class="row g-0">
+				<!-- Pokemon Image -->
+			  <div class="col-md-4">
+				<img src="https://i.etsystatic.com/33357979/r/il/e1dfcd/3584257734/il_fullxfull.3584257734_bfy9.jpg" class="img-fluid rounded-start" alt="Not Found" id="pokeImage" style="object-fit: contain; width: 100%; height: 100%;">
+			  </div>
+			  <div class="col-md-8">
+				<!-- Pokemon Stats -->
+				<div class="card-body">
+				  <h5 class="card-title" id="pokemonName">Pokemon</h5>
+				  <li class="list-group-item" id="pokeAbility1"><strong>Ability 1:</strong></li>
+				  <li class="list-group-item" id="pokeAbility2"><strong>Ability 2:</strong></li>
+				  <li class="list-group-item" id="pokeType"><strong>Type:</strong></li>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
